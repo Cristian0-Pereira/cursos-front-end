@@ -1,0 +1,53 @@
+/* div*/ p, h1 {
+  border: 2px solid red;
+}
+
+ul {
+  border: 1px solid red;
+}
+
+li {
+  /* inline não respeita os parâmetros
+  o inline-block sim. */
+  display: inline-block;
+  height: 150px;
+}
+
+.li1 {
+  background-color: blue;
+  color: white;
+}
+.li2 {
+  background-color: red;
+}
+.li3 {
+  background-color: green;
+}
+
+
+div {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+}
+
+
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+  visibility: hidden;
+  /* pra deixar o elemento oculto na tela */
+}
+.green {
+  background-color: green;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  margin: 40px;
+  font-size: 14px;
+}

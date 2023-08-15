@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 10px;
+    }
+  </style>
+  <title>Formulários no HTML - Programador WEB</title>
+</head>
+<body>
+  <main>
+    <form>
+
+      <h1>Formulário Aqui</h1>
+
+      <label for="campo_nome">Nome: </label>
+      <input type="text" id="campo_nome" placeholder="Seu nome aqui..." required> <br><br>
+
+      <label for="campo_email">Email: </label>
+      <input type="email" id="campo_email" placeholder="Digite seu email" required> <br><br>
+
+      <label for="senha">Senha: </label>
+      <input type="password" id="senha" placeholder="Digite sua senha" required> <br><br>
+
+      <h2>Animal de estimação</h2>
+
+      <input type="radio" id="dog" name="animal">
+      <label for="dog">Cachorro</label><br>
+
+      <input type="radio" id="cat" name="animal">
+      <label for="cat">Gato</label><br>
+
+      <input type="radio" id="bird" name="animal">
+      <label for="bird">Passarinho</label>
+      <br><br>
+
+      <h2>O que você tem em casa?</h2>
+
+      <input type="checkbox" id="item1" name="item1" value="TV" >
+      <label for="item1">TV</label> <br><br>
+
+      <input type="checkbox" id="item2" name="item2" value="Geladeira" >
+      <label for="item2">Geladeira</label> <br><br>
+
+      <input type="checkbox" id="item3" name="item3" value="Caomputador" >
+      <label for="item3">Computador</label> <br><br>
+
+      <input type="checkbox" id="item4" name="item4" value="Notebook" >
+      <label for="item4">Notebook</label> <br><br>
+
+      <h2>Escolha uma cor:</h2>
+      <select name="cores" required>
+        <option value="" disabled selected>Selecione uma cor</option>
+        <option value="Verde">Verde</option>
+        <option value="Amarelo">Amarelo</option>
+        <option value="Azul">Azul</option>
+        <option value="Vermelho">Vermelho</option>
+      </select> 
+      
+      <br><br>
+
+      <h2>Digite sua mensagem:</h2>
+    
+      <textarea name="feedback" id="textarea" cols="55" rows="6" required placeholder="Sua mensagem aqui" maxlength="200"></textarea>
+
+      <br><br>
+      <input type="submit" value="Enviar Formulário">
+
+    </form>
+
+    <br><br>
+
+    <button>Clique aqui!</button>
+
+  </main>
+</body>
+</html>

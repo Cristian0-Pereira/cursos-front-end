@@ -1,0 +1,11 @@
+div {
+  border: .1rem solid black;
+  background-color: burlywood;
+  /* padding-top: 5rem;
+  padding-right: 3rem;
+  padding-bottom: 5rem;
+  padding-left: 8rem; */
+
+  /* top, right, botton, left */
+  padding: 2.5rem 5rem 7.5rem 10rem;
+}

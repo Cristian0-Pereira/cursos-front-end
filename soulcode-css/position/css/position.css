@@ -1,0 +1,30 @@
+.t1 {
+  position: static;
+  border: .3rem solid green;
+  /* nao sofre altereção */
+}
+
+.t2 {
+  position: relative;
+  /* o relative sofre alteração. */
+  left: 3rem;
+  border: .2rem solid blue;
+}
+
+.t3 {
+  position: fixed;
+  /* fixa a posição onde vc quiser. */
+  bottom: 0;
+  right: 0;
+  width: 30rem;
+  border: .3rem solid yellow;
+}
+
+.t4 {
+  position: absolute;
+  top: 8rem;
+  right: 0;
+  width: 20rem;
+  height: 10rem;
+  border: .3rem solid red;
+}

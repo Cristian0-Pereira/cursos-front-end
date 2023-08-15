@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+    color: blue;
+    font-size: 6.0rem;
+    font-weight: 900;
+    /* font-style: oblique; */
+    text-decoration: underline black;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  color: crimson;
+  text-indent: 1.2rem;
+  text-decoration: underline#555;
+}
+
+p {
+  font-size: 1.4rem;
+  text-align: justify;
+  text-indent: 5.0rem;
+}
+
+.bg {
+    height: 100vh;
+    width: 100vw;
+    background-color: #555;
+    background-image: url("https://images.unsplash.com/photo-1685297965194-5eb9b8d51a05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==&auto=format&fit=crop&w=1169&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Roboto:ital,wght@0,300;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+
+.t1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.pai {
+  padding: 10px;
+  background: blue;
+  display: flex;
+  height: 500px;
+  /* wrap seria pra acomodar os itens na tela de forma automática. */
+  /* flex-wrap: wrap; */
+  /* ou flex-flow: short range, 2 propriedades em 1 só.*/
+  flex-flow: row wrap;
+  /* horizontal */
+  justify-content: center;
+  /* vertical / individual*/
+  align-items: center;
+  /* pra agrupar os itens / em bloco */
+  align-content: flex-start;
+}
+
+.pai div {
+  /* grow serve para o item crescer uniforme. */
+  flex-grow: 1;
+  background: white;
+  border: 1px solid black;
+  padding: 30px;
+  text-align: center;
+  display: block;
+}
+
+/* .tres {
+  /* é para crescer 3x mais aos outros. */
+  /* flex-grow: 3; */
+  /* ou em porcentagem com o border-box ativo. */
+  /* flex: 50%;  
+} */
+
+.a1 {
+  margin: 10px;
+}
+
+header {
+  background: rgb(5, 113, 5);
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background: gray;
+  color: black;
+  font-weight: bold;
+}
+
+.corpo {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  flex-grow: 1;
+  flex: 48%;
+  background: #ccc;
+  height: 400px;
+  margin: 1%;
+}
+
+@media screen and (max-width:600px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .card {
+    height: 200px
+  }
+}

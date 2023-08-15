@@ -1,0 +1,23 @@
+body {
+  margin: 3rem;
+}
+
+
+h2 {
+  text-align: center;
+  background-position: center;
+}
+
+div {
+  border: 1px solid black;
+  /* margin-top: 2.5rem;
+  margin-right: 2rem;
+  margin-bottom: 7.5rem;
+  margin-left: 2rem; */
+  
+  /* margin: 2.5rem 2rem 20rem 2rem; */
+  /* cima, direita, baixo e esquerda. */
+  
+/* margin: 2.5rem 2rem 20rem; */
+/* com três valores seria cima, direita e esquerda, baixo. */
+}

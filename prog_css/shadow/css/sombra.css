@@ -1,0 +1,23 @@
+.h1 {
+  /* sombra 10px x 5px e o blur de 10px*/
+  text-shadow: 10px 5px 10px black;
+  color: red;
+}
+
+.branco {
+  text-shadow: 2px 5px 15px red;
+  color: white;
+}
+
+.multiplas {
+  text-shadow: 0 0 10px red, 2px 2px 5px yellow, 2px 2px 20px blue;
+  color: white;
+} 
+
+.caixa {
+  width: 25%;
+  height: 400px;
+  background: white;
+  box-shadow: 5px 5px 20px rgb(142, 141, 141);
+  text-align: center;
+}

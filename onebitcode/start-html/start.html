@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculador de Gorgetas</title>
+  <link rel="stylesheet" href="css/start.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <div id="container">
+      <div class="title">
+        <h1>Calculadora de Gorgetas</h1>
+      </div>
+      <div id="container2">
+        <form class="tipsForm">
+          <p class="count">
+            <label for="bill">Quanto ficou a conta?</label>
+            <br> R$ <input type="number" id="bill" name="bill" placeholder="100,00" required class="formInput"><br>
+          </p>
+            
+        <p class="serviceQuality">
+          <label for="service">Como foi o serviço?</label><br>
+            <select name="service" id="service" class="formInput">
+              <option value="0" disabled selected>-- Escolha uma opção --</option>
+              <option value="0.3">30% - Incrível</option>
+              <option value="0.2">20% - Bom</option>
+              <option value="0.15">15% - Aceitável</option>
+              <option value="0.1">10% Ruim</option>
+              <option value="0.05">05% - Péssimo</option>
+            </select>
+          </p>
+
+          <p class="peoples">
+          <label for="people">Quantas pessoas vão dividir a conta?</label><br>
+            <input type="number" placeholder="1" name="people" id="people" class="formInput">
+            pessoa(s)
+          </p>
+          <button class="formSubmit" type="submit"><span>CALCULAR!</span></button>
+        </form>
+      </div>
+    </div>  
+  </main>
+</body>
+</html>

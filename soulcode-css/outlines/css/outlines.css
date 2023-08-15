@@ -1,0 +1,5 @@
+.p1 {
+  border: 2px solid black;
+  outline: 10px solid green;
+  /* pra ficar fora da borda ou caixa. */
+}

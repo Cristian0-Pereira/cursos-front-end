@@ -1,0 +1,26 @@
+.d1 {
+  margin: auto;
+  width: 60%;
+  border: .3rem solid red;
+  padding: 3rem;
+  text-align: center;
+}
+
+.d2 {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+  width: max-content;
+  text-align: center;
+  border: .3rem solid blue;
+  /* centralizado tbm. */
+}
+
+img {
+  height: 10rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* para centralizar a imagem */
+}

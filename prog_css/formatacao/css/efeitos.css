@@ -1,0 +1,38 @@
+body {
+  background: #ccc;
+}
+
+h1 {
+  /* sombra 10px x 5px e o blur de 10px*/
+  text-shadow: 10px 5px 10px black;
+  color: red;
+}
+
+.caixa {
+  margin-left: 40px;
+  width: 30%;
+  height: auto;
+  box-shadow: 5px 5px 20px rgb(144, 142, 142);
+  background: white;text-align: center;
+}
+
+.reduzido {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 30px;
+}
+
+.caixa:hover .reduzido {
+  white-space: normal;
+}
+
+.caixa h2 {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.caixa p {
+  text-align: justify;
+  margin: 0 10px;
+}

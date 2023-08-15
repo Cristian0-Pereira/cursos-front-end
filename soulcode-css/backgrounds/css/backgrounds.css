@@ -1,0 +1,10 @@
+body {
+  height: 900px;
+  /* background-color: indianred; */
+  /* background-color: khaki; */
+  /* background-image: url('images/soulcode.jpeg'); */
+  background-image: url("images/soul_coders.jpg");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center bottom;
+}

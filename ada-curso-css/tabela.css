@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'times new roman';
+  font-size: 1.8rem;
+}
+
+@keyframes btn-pisca {
+  0% { opacity: 0; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+.btn-pisca {
+background-color:#ce300c;
+color:#fff;
+padding: 0.6em 0.8em;
+display: inline-block;
+text-decoration: none;
+border-radius: 4px; 
+-webkit-animation: btn-pisca .9s linear infinite;
+-moz-animation: btn-pisca .9s linear infinite;
+-ms-animation: btn-pisca .9s linear infinite;
+-o-animation: btn-pisca .9s linear infinite;
+animation: btn-pisca .9s linear infinite;
+margin: auto;
+display: block;
+width: 60%;
+text-align: center;
+}
+
+.spinner {
+  width: 5rem;
+  height: 5rem;
+  border: 8px solid black;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.spinner.green {
+  border-color: rgb(140, 240, 140);
+  border-top-color: rgb(61, 151, 1);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+    font-size: 2rem;
+    padding: .6rem 2.4rem;
+    cursor: pointer;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    transition: all .2s ease-in-out, background-color 1s ease-in-out;
+}
+
+[data-anchor="team"]:hover {
+  background-color: aqua;
+  color: red;
+  transform: scale(1.2);
+}
+
+[data-anchor="team"] {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  animation: pulse 1s infinite;
+  animation-direction: alternate;
+  transform: scale(1);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.35);
+    opacity: .6;
+  }
+}
+
+table, td, th {
+  border: 1px solid black
+}
+
+table tr:first-child {
+  background-color: steelblue;
+  color: white;
+}
+
+table tr:nth-child(2n + 3) {
+  background-color: #aaa;
+}
+
+table {
+  font-size: 2.4rem;
+  border-collapse: separate;
+}
+
+th, td {
+  text-align: center;
+}
+
+h1 {
+  color: blueviolet;
+  font-weight: 900;
+  text-transform: capitalize;
+  text-indent: 4rem;
+  font-size: 4.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 2.4rem;
+  padding: 0.5rem;
+}
+
+.pais {
+  text-align: center;
+}
+
+.novo-em {
+  font-size: 300%;
+}
+
+/* p {
+  font-size: 1.8rem;
+  text-align: justify;
+  text-indent: 90px;
+} */
+
+a {
+  font-size: 2.4rem;
+  color: red
+}
+
+a:visited {
+  color: darkgreen
+}
+
+a:hover {
+  color: coral
+}
+
+.bg {
+  height: 20vh;
+  width: 100vw;
+  background-color: #555;
+  background-image: url('https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+[data-company] {
+  background-color: aqua;
+}
+
+@media screen and (min-width:1000px) {
+  .bg {
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  .bg {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* table {
+    display: none;
+  }
+  h1 {
+    color: red;
+  } */
+}

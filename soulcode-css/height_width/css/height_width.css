@@ -1,0 +1,12 @@
+.t1 {
+  height: 20rem;
+  width: 20rem;
+  background-color: coral;
+  padding: 5rem;
+}
+
+.t2 {
+  max-width: 50rem;
+  height: 10rem;
+  background-color: cornflowerblue;
+}

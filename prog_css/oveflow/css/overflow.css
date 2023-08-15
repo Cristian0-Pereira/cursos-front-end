@@ -1,0 +1,7 @@
+.exemplo {
+  background: #ccc;
+  color: red;
+  height: 150px;
+  overflow: auto;
+  /* overflow-y: hidden; */
+}

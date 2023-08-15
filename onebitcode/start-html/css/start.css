@@ -1,0 +1,94 @@
+:root {
+  --primary-color: lightcoral;
+  --secondary-color: Dimgrey;
+  --tertiary-color: gainsboro;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  height: 525px;
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 5px 5px 5px var(--tertiary-color);
+  border-radius: 20px;
+}
+
+#container2 {
+  height: 200px;
+  width: max-content;
+  margin: 50px auto;
+}
+
+.title {
+  background: var(--tertiary-color);
+  color: var(--secondary-color);
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;  
+  text-align: center;
+}
+
+.count, .peoples, .serviceQuality {
+  font-size: 18px;
+}
+
+.formInput, #people {
+  margin-top: 5px;
+}
+
+.tipsForm {
+  text-align: center;
+}
+
+.formInput {
+  background: white;
+  width: 60px;
+  padding: 5px;
+}
+
+#service {
+  width: max-content;
+  padding: 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.formInput1:focus, .formInput2{
+  border:  3px solid var(--primary-color);
+  outline: none;
+}
+
+.serviceQuality, .peoples {
+  margin-top: 30px;
+}
+
+#people {
+  width: 15%;
+}
+
+.formSubmit {
+  background-color: var(--primary-color);
+  padding: 15px;
+  margin: auto;
+  border-radius: 10px;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px var(--secondary-color);
+  cursor: pointer;
+  color: white;
+}
+
+.formInput:focus {
+  border: 3px solid var(--primary-color);
+  outline: none;
+}

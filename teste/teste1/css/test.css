@@ -1,0 +1,84 @@
+* {
+  font-family: 'Roboto300', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../image/lua.jpg");
+  background-position: center;
+}
+
+.corpo {
+  position: relative;
+}
+
+
+
+.textDiv{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: transparent;
+  padding-left: 400px;
+  color: #fff;
+  text-align: center;
+}
+
+p {
+  text-shadow: 2px 2px red, 2px 2px green, 2px 2px yellow;
+  font-weight: bold;
+}
+
+.button {
+  margin: 10px;
+}
+
+#button1 {
+  border-radius: 10px;
+  box-shadow: 3px 3px orangered;
+  cursor: pointer;
+  background-color:coral;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px;
+  font-family: 'Roboto500', sans-serif;
+}
+
+.romano {
+  margin: 40px 0;
+}
+
+ol {
+  list-style-type: lower-roman;
+  text-align: left;
+  text-indent: 10px;
+  color: rgb(253, 252, 252);
+  font-weight: bold;
+}
+
+.formulario {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.suaIdade {
+  text-align: center;
+  margin: 5px;
+}
+
+#data {
+  width: 46%;
+}
+
+#button3 {
+  margin: 30px 0;
+  padding: 10px;
+  width: 20%;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 3px rgb(211, 117, 117), 3px 3px rgb(25, 0, 255), 3px 3px rgb(0, 255, 0);
+}
+

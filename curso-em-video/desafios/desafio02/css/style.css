@@ -1,0 +1,162 @@
+@font-face {
+  font-family: idroid;
+  src: url(../fonts/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+  --cor0: #c5ebd6;
+  --cor1: #83E1AD;
+  --cor2: #30dc84;
+  --cor3: #2fa866;
+  --cor4: #1a5c37;
+  --cor5: #063d1e;
+  --font0: Arial, Helvetica, sans-serif;
+  --font1: 'Bebas Neue', cursive;
+  --font2: 'Idroid', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #92f7cf;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+  background-image: linear-gradient(to top, #176217, #b3f7b3);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header > p{
+  text-align: center;
+  text-shadow: 2px 2px 2px #646363;
+}
+
+nav{
+  text-align: left;
+}
+
+nav > a{
+  text-decoration: none;
+  font-size: .9em;
+  color: white;
+  margin-left: 15px;
+}
+
+main{
+  background: white;
+  box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.37);
+  margin: auto;
+  padding: 20px;
+  min-width: 400px;
+  max-width: 800px;
+}
+
+h1{
+  letter-spacing: -2px;
+  text-shadow: 2px 2px 2px #156847;
+}
+
+h2, h3{
+  font-family: idroid;
+
+}
+
+h2{
+  background: white;
+  color: #156847;
+  margin-left: 10px;
+  font-size: 1.4em;
+}
+
+h3{
+  background-image: linear-gradient(to right, #65bc6552, #90ee900f);
+  color: #156847;
+  font-size: 1.1em;
+}
+
+h4{
+  background: #238960;
+  padding: 10px;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+p{
+  text-indent: 25px;
+  text-align: justify;
+  margin: 10px;
+  font-size: .9em;
+}
+
+.irina, .dandroid{
+  width: 100%;
+}
+
+.bugdroid{
+  display: flex;
+  margin: auto;
+}
+
+.aprender{
+  background: white;
+  margin: 10px;
+}
+
+aside > p{
+  margin: 10px;
+  padding-bottom: 5px;
+}
+
+.box{
+  background: #92f7cf;
+  border-radius: 10px;
+}
+
+.lista1{
+  width: 50%;  
+  float: right;
+}
+
+ul{
+  list-style-type: '\2714\0020\0020';
+  columns: 2;
+  list-style-position: inside;
+}
+
+li, a{
+  list-style-type: none;
+  color: black;
+}
+
+.links{
+  color: rgb(13, 123, 13);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+span{
+  opacity: .5;
+}
+
+/* footer{
+  background: rgb(22, 95, 22);
+  color: white;
+  font-size: 12px;
+} */
+
+.rodape{
+  text-align: center;
+  background: rgb(22, 95, 22);
+  color: white;
+  font-size: .7em;
+  padding: 4px;
+}
+

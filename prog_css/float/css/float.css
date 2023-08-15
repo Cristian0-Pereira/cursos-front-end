@@ -1,0 +1,57 @@
+.container {
+  border: 2px solid black;
+  overflow: auto;
+}
+
+
+.container img {
+  width: 400px;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+}
+
+.container p {
+  text-align: justify;
+  text-indent: 20px;
+  margin: 20px 10px;
+  margin-left: 20px;
+}
+
+h3 {
+  padding-top: 20px;
+  clear: both;
+  margin: 30px;
+}
+
+.boxes {
+  background: black;
+  padding: 20px;
+}
+
+.box1, .box2, .box3, .box4 {
+  display: inline-block;
+}
+
+.box1 a, .box2 a, .box3 a, .box4 a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  
+}
+
+.box1 a:hover, .box2 a:hover, .box3 a:hover {
+  background: #ccc;
+  color: black;
+  border-radius: 10px;
+}
+
+.box4 {
+  float: right;
+}
+
+.box4 a:hover {
+  background: orangered;
+  color: white;
+  border-radius: 20px;
+}

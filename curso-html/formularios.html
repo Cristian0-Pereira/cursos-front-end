@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários HTML</title>
+</head>
+<body>
+  <main>
+    <h1>Formulário</h1>
+    <hr>
+    <br>
+
+    <form>
+      <div>
+        <label for="texto">Nome:</label>
+        <input type="text" id="texto" name="nome">
+        <!-- placeholder="Informe o seu nome... -->
+        <!-- value="Cristiano" -->
+      </div>
+
+      <div>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+      </div>
+
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div>
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" id="data" name="data">
+      </div>
+
+      <div>
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora">
+      </div>
+
+      <div>
+        <label for="numero">Número:</label>
+        <input type="number" id="numero" name="numero">
+      </div>
+
+      <div>
+        <label for="arquivo">Selecione o Arquivo:</label>
+        <input type="file" id="arquivo" name="arquivo">
+      </div>
+
+      <div>
+        <label for="www">URL:</label>
+        <input type="url" id="www" name="www">
+      </div>
+
+      <div>
+        <label for="cor">Cor:</label>
+        <input type="color" id="cor" name="cor">
+      </div>
+
+      <div>
+        <label for="barra">Qualquer tamanho:</label>
+        <input type="range" id="barra" name="barra" value="100" max="200" min="100">
+      </div>
+
+      <div>
+        <label for="caixa">Selecione:</label>
+        <input type="checkbox" id="caixa" name="caixa" checked>
+        <input type="radio" id="caixa" name="caixa">
+      </div>
+
+      <div>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        <br>
+        <select name="select" id="select">
+          <option value="" disabled selected>Selecione uma das opções...</option>
+          <option value="receita">Receita</option>
+          <option value="despesa">Despesa</option>
+          <option value="transferencia">Tranferência</option>
+        </select>
+        <br>
+        <label for="limpar"></label>
+        <input type="reset" id="limpar" name="limpar" value="Limpar">
+        <input type="submit" value="Enviar">
+      </div>
+ 
+    </form>
+  </main>
+</body>
+</html>

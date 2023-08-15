@@ -1,0 +1,31 @@
+.l1:link {
+  background-color: yellow;
+}
+
+.l1:hover {
+  background-color: yellowgreen;
+  /* qdo para o mouse em cima */
+}
+
+.l1:active {
+  background-color: aqua;
+  /* qdo clica no link */
+}
+
+.l2:link {
+  background-color: red;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.l2:hover, .l2active {
+  background-color: yellow;
+}
+
+.l2:visited {
+  background-color: violet;
+  /* não está dando certo */
+}

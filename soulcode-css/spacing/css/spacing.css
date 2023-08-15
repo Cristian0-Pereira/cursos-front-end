@@ -1,0 +1,33 @@
+.p1 {
+  text-indent: 5rem;
+}
+
+h1 {
+  letter-spacing: 1rem;
+  /* pra espaçar as letras */
+}
+
+h2 {
+  letter-spacing: -.2rem;
+  /* aqui ele está no negativo, juntando os caracteres */
+}
+
+.p2 {
+  line-height: .7;
+  /* ele espaça a linha do texto, para juntar a linha ou espaçar.  */
+}
+
+.p3 {
+  line-height: 1.8;
+  /* aqui ele aumentou a distância das linhas. */
+}
+
+.p4 {
+  word-spacing: 2rem;
+  /* pra espaçar as palavras, */
+}
+
+.p5 {
+  word-spacing: -.2rem;
+  /* aqui ele junta as palavras pelo valor ser negativo. */
+}
