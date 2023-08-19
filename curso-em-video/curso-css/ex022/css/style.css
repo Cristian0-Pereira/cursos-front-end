@@ -63,3 +63,20 @@ body.fundo02{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.fundo06{
+    height: 100vh;
+    background-color: black;
+    background-image: url('../img/wallpaper002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.f06{
+    background: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
