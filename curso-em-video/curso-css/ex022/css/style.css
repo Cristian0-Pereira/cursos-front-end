@@ -60,4 +60,6 @@ body.fundo02{
     height: 97vh;
     background-image: url('../img/wallpaper003.jpg');
     background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
