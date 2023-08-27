@@ -1,22 +1,14 @@
-.divLeft {
-  width: 49.5%;
-  height: 949px;
-  float: left;
-  position: relative;
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
 }
 
-#spaceText {
-  padding-right: 16px;
-}
-
-#photo {
-  width: 1600px;
-  height: 949px;
-}
-
-.textDiv {
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: #fff;
+div{
+    border: 1px solid black;
+    width: 50px;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
 }
