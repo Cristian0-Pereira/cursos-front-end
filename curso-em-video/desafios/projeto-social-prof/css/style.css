@@ -34,3 +34,20 @@ main{
     height: 472px;
     width: 269px;
 }
+#social-media{
+    text-align: right;
+    margin-top: 40px;
+}
+#social-media img{
+    width: 60px;
+    margin: 15px;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #0000007a;
+}
+#social-media img:hover{
+    border: 5px solid #ffffffa0;
+    transform: translate(-3px, -3px);
+    transition: .2s;
+    text-shadow: 5px 5px 10px #00000097;
+}
