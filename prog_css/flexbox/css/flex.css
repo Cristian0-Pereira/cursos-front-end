@@ -85,6 +85,7 @@ header {
   flex-grow: 1;
   flex: 48%;
   background: #ccc;
+  border: 1px solid black;
   height: 400px;
   margin: 1%;
 }
