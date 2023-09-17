@@ -1,1 +1,9 @@
-/* Modo Retrato (tela pequena)*/
+/* Aparelho em pé(portrait)*/
+body{
+    background-image: url('../img/cev-portrait.jpg');
+    background-position: center bottom;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
